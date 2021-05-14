@@ -35,7 +35,8 @@ const ComponentHooks = () => {
                     <label htmlFor='searchinput'>Search</label>
                     <input 
                     type='search' 
-                    id='searchinput' 
+                    id='searchinput'
+                    placeholder='By Author'
                     onChange={(e)=>{handleChange(e)}}
                     />
                     <h4>Posts Found: {fetchedPosts.length}</h4>

@@ -32,6 +32,7 @@ class Content extends Component {
             posts: filteredPosts
         })
     }
+    
     render () {
         return (
            
